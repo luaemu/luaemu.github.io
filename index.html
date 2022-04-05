@@ -39,10 +39,16 @@
             padding: 2em;
         }
 
-        .content img {
-            margin: auto;
-            align-self: center;
+        div.profile-banner {
+            display: flex;            
+            justify-content: center;
+
+        }
+
+        img {
+            filter: drop-shadow(10px 5px 15px #aa00dd);
             border-radius: 100%;
+            color: blue;
         }
 
         h6 {
@@ -56,8 +62,10 @@
         <h1>I am Local.</h1>
         <h1>I do stuff on the internet occasionally.</h1>
     </div>
+    <div class="profile-banner">
+        <img src="./axo_me.png" width='512' height="512"/>
+    </div>
     <div class="content">
-        <img src="axo_me.png" width="256" height="256" />
         <p>
         <h3>My name is Local. You may know me by other names, such as:</h3>
         <ul>
