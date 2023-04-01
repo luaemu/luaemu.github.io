@@ -200,8 +200,9 @@ button {
 .social #yt:hover {
     color: #f00;
     background-color: #ffb9b9;
+    border-color: #f00;
     width: 50%;
-    box-shadow: 3px 3px 6px #6b3131;
+    box-shadow: 3px 3px 6px #7c1515;
 }
 
 .social #twt {
@@ -213,5 +214,7 @@ button {
 .social #twt:hover {
     color: #1DA1F2;
     background-color: #c3e7fd;
+    border-color: #1DA1F2;
     width: 50%;
+    box-shadow: 3px 3px 6px #054268;
 }
