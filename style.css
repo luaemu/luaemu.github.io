@@ -4,13 +4,47 @@
     0% {
         background-position: 0% 50%;
     }
-    
+
     50% {
         background-position: 100% 50%;
     }
-    
+
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes shadowrgb {
+    0% {
+        box-shadow: 10pt 10pt 5pt red;
+    }
+
+    14.3% {
+        box-shadow: -10pt 5pt 5pt orange;
+    }
+
+    28.6% {
+        box-shadow: 15pt 7pt 5pt yellow;
+    }
+
+    42.9% {
+        box-shadow: -3pt -15pt 5pt green;
+    }
+
+    57.1% {
+        box-shadow: 10pt -7pt 5pt blue;
+    }
+
+    71.4% {
+        box-shadow: 0pt 7pt 5pt indigo;
+    }
+
+    85.7% {
+        box-shadow: -20pt 8pt 10pt violet;
+    }
+
+    100% {
+        box-shadow: 15pt 10pt 6pt red;
     }
 }
 
@@ -31,6 +65,23 @@ body {
     letter-spacing: .25em;
     margin: 1rem;
     text-shadow: 2px 2px 3px #000000;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-height: 300pt;
+    padding-bottom: 12vh;
+}
+
+.profile img {
+    max-height: 100%;
+    align-self: center;
+    border-radius: 100%;
+    animation: shadowrgb 5s infinite;
 }
 
 .header hr {
@@ -123,7 +174,7 @@ button {
     border-color: #5865f2;
     width: 50%;
     box-shadow: 3px 3px 6px #252a68;
-    
+
 }
 
 .social #mail {
