@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
 
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +21,11 @@
 }
 
 body {
-    /* background-color: #1a1a1a; */
-    background: linear-gradient(#351a1a, #301d33) no-repeat center center fixed;
+    background-color: #1a1a1a;
+    background: linear-gradient(90deg, #692b2b, #503055, #7e487e, #4e48a3) no-repeat center center fixed;
+    background-size: 400% 400%;
     background-repeat: no-repeat;
+    animation: bg 10s none infinite;
     color: #fff;
     font-family: 'B612 Mono', monospace;
     letter-spacing: .25em;
