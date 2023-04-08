@@ -14,40 +14,6 @@
     }
 }
 
-@keyframes shadowrgb {
-    0% {
-        box-shadow: 10pt 10pt 5pt red;
-    }
-
-    14.3% {
-        box-shadow: -10pt 5pt 5pt orange;
-    }
-
-    28.6% {
-        box-shadow: 15pt 7pt 5pt yellow;
-    }
-
-    42.9% {
-        box-shadow: -3pt -15pt 5pt green;
-    }
-
-    57.1% {
-        box-shadow: 10pt -7pt 5pt blue;
-    }
-
-    71.4% {
-        box-shadow: 0pt 7pt 5pt indigo;
-    }
-
-    85.7% {
-        box-shadow: -20pt 8pt 10pt violet;
-    }
-
-    100% {
-        box-shadow: 15pt 10pt 6pt red;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -67,6 +33,33 @@ body {
     text-shadow: 2px 2px 3px #000000;
 }
 
+.nav {
+    display: flex;
+    margin-bottom: 3rem;
+    font-size: larger;
+}
+
+.nav ul {
+    list-style: lower-greek;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-content: center;
+    gap: 20vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    text-shadow: none;
+    transition: 200ms;
+}
+
+.nav a:hover {
+    color:#3e76c9;
+    text-shadow: 3px 3px 5px #000000;
+}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -82,6 +75,7 @@ body {
     align-self: center;
     border-radius: 100%;
     animation: shadowrgb 10s infinite;
+    border: 3pt #f5f solid;
 }
 
 .header hr {
