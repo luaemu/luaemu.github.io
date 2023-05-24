@@ -1,4 +1,4 @@
-let myDiscord = "kedarui.#1544";
+let myDiscord = "AkiyamaYousuke#1544";
 let myYoutube = "https://www.youtube.com/channel/UCBpcFok8Jt0m0akR8RMT6gg";
 let myTwitter = "https://twitter.com/fortissimopiano";
 
